@@ -1,1 +1,25 @@
 /* your code */
+th{
+    background-color: rgb(70, 70, 219);
+    text-align: left;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(160, 160, 208);
+}
+
+thead{
+    height:30px;
+    border: 1px solid red;
+}
+
+table{
+    border-spacing:0;
+    width: 600px;
+    height: 150px;
+}
+
+tbody{
+    text-align: left;
+}
+
